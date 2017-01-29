@@ -73,12 +73,22 @@ header::after {
 .catalog-item {
 	float: left;
 	width: 220px;
-	padding: 0 10px;
+	margin: 10px;
+	background-color: #ffffff;
 }
-.row {
-	content: "";
-	display: table;
-	clear: both;
+.catalog-item .buy {
+	padding: 10px 0 40px 16px;
+}
+.catalog-item h2 {
+	padding-left: 16px;
+}
+.buy p {
+	float: left;
+	margin: 0;
+	padding-right: 50px;
+}
+.buy a {
+	float: left;
 }
 .pagination {
 	clear: both;
@@ -97,9 +107,13 @@ header::after {
 	width: 480px;	 
 	margin-right: 50px;
 }
-.gallery img {
-	padding: 10px;
+.other-image img {
+	padding-right: 20px;
+	padding-top: 20px;
 	float: left;
+}
+.other-image img:last-child {
+	padding-right: 0px;
 }
 .information {
 	float: left;
